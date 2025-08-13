@@ -3,6 +3,8 @@ Repositório de teste
 
 #include <stdio.h>
 
+#include <stdio.h>
+
 int main()
 {
     int x;
@@ -10,11 +12,7 @@ int main()
     printf("Selecione um numero: ");
     scanf("%d", &x);
     
-    if(x%2 == 0){
-        printf("1");
-    }else{
-        printf("0");
-    }
+    printf("%d", !(x % 2));
 
     return 0;
 }
