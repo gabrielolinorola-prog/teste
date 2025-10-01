@@ -3,8 +3,6 @@ Repositório de teste
 
 #include <stdio.h>
 
-#include <stdio.h>
-
 int main()
 {
     int x;
